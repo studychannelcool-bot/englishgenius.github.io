@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>EnglishGenius - учи английский с удовольствием!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Шапка сайта -->
+        <header class="header">
+            <div class="logo">
+                <h1>EnglishGenius</h1>
+                <span class="tagline">Учи играючи!</span>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#home" class="active">Главная</a></li>
+                    <li><a href="#grammar">Взламываем грамматику</a></li>
+                    <li><a href="#games">Игровая комната</a></li>
+                    <li><a href="#cheatsheet">Шпаргалка</a></li>
+                    <li><a href="#homework">Помощь с заданием</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Главная страница -->
+        <section id="home" class="section active-section">
+            <div class="hero">
+                <h2>Добро пожаловать в EnglishGenius!</h2>
+                <p>Здесь грамматика становится понятной, а английский - любимым предметом</p>
+                <div class="interests-grid">
+                    <div class="interest-card" data-section="grammar">
+                        <span class="emoji">🔓</span>
+                        <h3>Взламываем грамматику</h3>
+                        <p>Правила с мультиками и мемами</p>
+                    </div>
+                    <div class="interest-card" data-section="games">
+                        <span class="emoji">🎮</span>
+                        <h3>Игровая комната</h3>
+                        <p>Приключения и выбор реплик</p>
+                    </div>
+                    <div class="interest-card" data-section="cheatsheet">
+                        <span class="emoji">📚</span>
+                        <h3>Шпаргалка</h3>
+                        <p>Цветные схемы-памятки</p>
+                    </div>
+                    <div class="interest-card" data-section="homework">
+                        <span class="emoji">🎯</span>
+                        <h3>Помощь с заданием</h3>
+                        <p>Пошаговые подсказки</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел: Взламываем грамматику (ИСПРАВЛЕНО) -->
+        <section id="grammar" class="section">
+            <h2 class="section-title">🔓 Взламываем грамматику</h2>
+            <div class="grammar-grid">
+                <div class="video-card">
+                    <div class="video-container">
+                        <div class="video-placeholder" style="background: linear-gradient(135deg, #6C63FF, #4ECDC4);">
+                            <span style="font-size: 5rem; display: block; text-align: center; line-height: 200px;">🎬</span>
+                        </div>
+                    </div>
+                    <h3>Present Simple: Когда всё происходит всегда</h3>
+                    <div class="meme-card">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                            <span style="font-size: 2rem;">🐶</span>
+                            <span>Каждый день: "I eat breakfast"</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                            <span style="font-size: 2rem;">🤖</span>
+                            <span>Но сегодня: "I am eating breakfast"</span>
+                        </div>
+                        <span class="meme-tag">#PresentSimpleVsContinuous</span>
+                    </div>
+                    <div class="cartoon-example">
+                        <p style="font-weight: bold; margin-bottom: 5px;">🍔 Из "Губки Боба":</p>
+                        <p>Сквирвард: "I work every day!"</p>
+                        <p>Губка Боб: "I am working right now!"</p>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-container">
+                        <div class="video-placeholder" style="background: linear-gradient(135deg, #FF6B6B, #FFA07A);">
+                            <span style="font-size: 5rem; display: block; text-align: center; line-height: 200px;">📺</span>
+                        </div>
+                    </div>
+                    <h3>Past Simple: Вчера было...</h3>
+                    <div class="meme-card">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                            <span style="font-size: 2rem;">😱</span>
+                            <span>Me: "I buyed a car"</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span style="font-size: 2rem;">👨‍🏫</span>
+                            <span>Учитель: "BOUGHT!"</span>
+                        </div>
+                        <span class="meme-tag">#RegularVsIrregular</span>
+                    </div>
+                    <div class="cartoon-example">
+                        <p style="font-weight: bold; margin-bottom: 5px;">🦁 Из "Короля Льва":</p>
+                        <p>Муфаса: "I showed you the entire kingdom"</p>
+                        <p>Симба: "You showed me everything!"</p>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-container">
+                        <div class="video-placeholder" style="background: linear-gradient(135deg, #4ECDC4, #45B7D1);">
+                            <span style="font-size: 5rem; display: block; text-align: center; line-height: 200px;">🐱</span>
+                        </div>
+                    </div>
+                    <h3>Prepositions: Где кот?</h3>
+                    <div class="meme-card">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                            <span style="font-size: 2rem;">😺</span>
+                            <span>IN the box</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                            <span style="font-size: 2rem;">😺</span>
+                            <span>ON the box</span>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <span style="font-size: 2rem;">😺</span>
+                            <span>UNDER the box</span>
+                        </div>
+                        <span class="meme-tag">#WhereIsTheCat</span>
+                    </div>
+                    <div class="cartoon-example">
+                        <p style="font-weight: bold; margin-bottom: 5px;">🐭 Из "Тома и Джерри":</p>
+                        <p>Джерри: "I'm IN the hole!"</p>
+                        <p>Том: "He's UNDER the table!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел: Игровая комната -->
+        <section id="games" class="section">
+            <h2 class="section-title">🎮 Игровая комната</h2>
+            <div class="game-container">
+                <div class="story-card">
+                    <h3>Приключение в джунглях</h3>
+                    <div class="story-text" id="storyText">
+                        Ты идёшь по джунглям и встречаешь тигра. Он спрашивает:
+                        "What ___ you doing here?"
+                    </div>
+                    <div class="choices" id="choices">
+                        <button class="choice-btn" data-correct="true">are</button>
+                        <button class="choice-btn" data-correct="false">is</button>
+                        <button class="choice-btn" data-correct="false">am</button>
+                    </div>
+                    <div class="hint-message" id="hintMessage"></div>
+                    <button class="next-btn" id="nextBtn" style="display: none;">Продолжить →</button>
+                </div>
+
+                <div class="story-card">
+                    <h3>В гостях у Шерлока</h3>
+                    <div class="story-text" id="storyText2">
+                        Шерлок смотрит на тебя и говорит: "You ___ a detective yesterday. What happened?"
+                    </div>
+                    <div class="choices" id="choices2">
+                        <button class="choice-btn" data-correct="false">was</button>
+                        <button class="choice-btn" data-correct="true">were</button>
+                        <button class="choice-btn" data-correct="false">are</button>
+                    </div>
+                    <div class="hint-message" id="hintMessage2"></div>
+                    <button class="next-btn" id="nextBtn2" style="display: none;">Продолжить →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Раздел: Шпаргалка -->
+        <section id="cheatsheet" class="section">
+            <h2 class="section-title">📚 Шпаргалка</h2>
+            <div class="search-container">
+                <input type="text" id="topicSearch" placeholder="Введи тему (например: Present Simple, Past Simple, Prepositions...)" class="search-input">
+                <button id="searchBtn" class="search-btn">Найти</button>
+            </div>
+            
+            <div class="cheatsheet-result" id="cheatsheetResult" style="display: none;">
+                <!-- Здесь будут появляться схемы -->
+            </div>
+        </section>
+
+        <!-- Раздел: Помощь с заданием -->
+        <section id="homework" class="section">
+            <h2 class="section-title">🎯 Помощь с заданием</h2>
+            <div class="homework-container">
+                <div class="exercise-card">
+                    <div class="exercise-text">
+                        I (go) to the cinema yesterday.
+                    </div>
+                    <button class="explain-btn" data-exercise="1">Объясни</button>
+                    <div class="explanation" id="explanation1" style="display: none;">
+                        <div class="step">1️⃣ Найди слово-маркер: <strong>yesterday</strong> (вчера)</div>
+                        <div class="step">2️⃣ Yesterday указывает на <strong>Past Simple</strong></div>
+                        <div class="step">3️⃣ Глагол "go" - правильный или неправильный?</div>
+                        <div class="step">4️⃣ Go - неправильный глагол: go → went → gone</div>
+                        <div class="step">✅ Правильный ответ: <strong>went</strong></div>
+                    </div>
+                </div>
+
+                <div class="exercise-card">
+                    <div class="exercise-text">
+                        She usually (drink) coffee in the morning.
+                    </div>
+                    <button class="explain-btn" data-exercise="2">Объясни</button>
+                    <div class="explanation" id="explanation2" style="display: none;">
+                        <div class="step">1️⃣ Найди слово-маркер: <strong>usually</strong> (обычно)</div>
+                        <div class="step">2️⃣ Usually указывает на <strong>Present Simple</strong></div>
+                        <div class="step">3️⃣ She (3 лицо, ед.ч.) → добавляем -s к глаголу</div>
+                        <div class="step">4️⃣ Drink + s = drinks</div>
+                        <div class="step">✅ Правильный ответ: <strong>drinks</strong></div>
+                    </div>
+                </div>
+
+                <div class="exercise-card">
+                    <div class="exercise-text">
+                        They (play) football now.
+                    </div>
+                    <button class="explain-btn" data-exercise="3">Объясни</button>
+                    <div class="explanation" id="explanation3" style="display: none;">
+                        <div class="step">1️⃣ Найди слово-маркер: <strong>now</strong> (сейчас)</div>
+                        <div class="step">2️⃣ Now указывает на <strong>Present Continuous</strong></div>
+                        <div class="step">3️⃣ Формула: am/is/are + глагол с -ing</div>
+                        <div class="step">4️⃣ They → are + play + ing = playing</div>
+                        <div class="step">✅ Правильный ответ: <strong>are playing</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
